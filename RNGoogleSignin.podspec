@@ -24,5 +24,6 @@ Pod::Spec.new do |s|
     ss.dependency      'GoogleSignIn'
     ss.source_files  = "ios/**/*.{h,m}"
     ss.libraries     = "stdc++"
+    ss.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(SRCROOT)/../react-native/React"' }
   end
 end
