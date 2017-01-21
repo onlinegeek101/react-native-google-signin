@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license             = package['license']
   s.author              = "devfd & TJ Pavlu"
   s.source              = { :git => "https://github.com/devfd/react-native-google-signin", :tag => "v#{s.version}" }
-  ss.source_files       = "ios/**/*.{h,m}"
+  s.source_files       = "ios/**/*.{h,m}"
   s.header_dir          = 'RNGoogleSignin'
   s.dependency 'GoogleSignIn'
   s.dependency 'React'
