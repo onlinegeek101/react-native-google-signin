@@ -1,5 +1,5 @@
 
-#import <React/RCTViewManager.h>
+#import "RCTViewManager.h"
 #import "RNGoogleSignIn.h"
 
 @interface RNGoogleSigninButtonManager : RCTViewManager
